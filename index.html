@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#071A36" />
+    <meta name="description"
+        content="CiviKraft Technologies builds modern websites, mobile apps, business platforms and civic digital solutions." />
+    <meta property="og:title" content="CiviKraft Technologies | Digital Solutions. Built for People." />
+    <meta property="og:description"
+        content="We craft digital experiences that help businesses, organizations and communities move forward." />
+    <meta property="og:type" content="website" />
+    <title>CiviKraft Technologies | Digital Solutions. Built for People.</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23071A36'/><path d='M25 68C25 42 41 25 67 25' fill='none' stroke='%2318B6E8' stroke-width='10' stroke-linecap='round'/><path d='M58 29L77 48L58 67' fill='none' stroke='%23FF8A00' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <!-- Loader -->
+    <div id="loader" class="loader" aria-label="Loading CiviKraft">
+        <div class="loader-inner">
+            <img src="logo.png" alt="CiviKraft Technologies" class="loader-logo" />
+            <div class="loader-text" id="loaderText">CIVIKRAFT</div>
+            <div class="loader-line"><span></span></div>
+            <p>Digital Solutions. Built for People.</p>
+        </div>
+    </div>
+
+    <div id="scrollProgress" class="scroll-progress" aria-hidden="true"></div>
+    <div id="cursorDot" class="cursor-dot" aria-hidden="true"></div>
+    <div id="cursorRing" class="cursor-ring" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <header id="navbar" class="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="logo-link magnetic" aria-label="CiviKraft Technologies home">
+                <img src="logo.png" alt="CiviKraft Technologies logo" class="logo-image" />
+                <span class="logo-copy">
+                    <strong class="logo-text">CiviKraft</strong>
+                    <small>TECHNOLOGIES</small>
+                </span>
+            </a>
+            <nav class="desktop-nav" aria-label="Primary navigation">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#solutions" class="nav-link">Solutions</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <a href="#contact" class="btn btn-primary nav-cta magnetic">
+                <span>Start a Project</span><span aria-hidden="true">↗</span>
+            </a>
+            <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false"
+                aria-controls="mobileMenu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+        <div class="mobile-menu-top">
+            <span>CIVIKRAFT / MENU</span>
+            <button type="button" class="mobile-menu-close" aria-label="Close menu">×</button>
+        </div>
+        <nav class="mobile-menu-nav" aria-label="Mobile navigation">
+            <a href="#home" class="mobile-link"><span>01</span>Home</a>
+            <a href="#services" class="mobile-link"><span>02</span>Services</a>
+            <a href="#solutions" class="mobile-link"><span>03</span>Solutions</a>
+            <a href="#work" class="mobile-link"><span>04</span>Work</a>
+            <a href="#about" class="mobile-link"><span>05</span>About</a>
+            <a href="#contact" class="mobile-link"><span>06</span>Contact</a>
+            <a href="#contact" class="btn btn-primary mobile-cta">Start a Project <span>↗</span></a>
+        </nav>
+        <div class="mobile-menu-foot">
+            <span>Digital Solutions. Built for People.</span>
+            <a href="mailto:hello@civikraft.com">hello@civikraft.com</a>
+        </div>
+    </div>
+
+    <main id="home">
+        <!-- HERO -->
+        <section class="hero" id="hero">
+            <div class="hero-bg-grid" aria-hidden="true"></div>
+            <div class="hero-bg-glow" aria-hidden="true"></div>
+            <div class="hero-particles" id="heroParticles" aria-hidden="true"></div>
+            <div class="hero-noise" aria-hidden="true"></div>
+
+            <div class="container hero-container">
+                <div class="hero-left">
+                    <p class="hero-eyebrow">DIGITAL PRODUCTS · TECHNOLOGY · EXPERIENCE</p>
+                    <h1 class="hero-title">
+                        <span class="line">WE CRAFT</span>
+                        <span class="line">DIGITAL</span>
+                        <span class="line highlight">EXPERIENCES.</span>
+                        <span class="line sub-line">THAT MOVE BUSINESSES FORWARD.</span>
+                    </h1>
+                    <p class="hero-text">CiviKraft Technologies builds websites, mobile apps and custom digital
+                        platforms for businesses, communities and organizations that want to move faster.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary magnetic"><span>Start a
+                                Project</span><span>↗</span></a>
+                        <a href="#work" class="btn btn-ghost magnetic"><span>Explore Our Work</span><span>↗</span></a>
+                    </div>
+                    <div class="hero-meta">
+                        <div class="hero-meta-item"><strong>01</strong><span>Human-first<br>digital products</span>
+                        </div>
+                        <div class="hero-meta-line"></div>
+                        <div class="hero-meta-item"><strong>02</strong><span>Built around<br>real businesses</span>
+                        </div>
+                        <div class="hero-meta-line"></div>
+                        <div class="hero-meta-item"><strong>03</strong><span>Designed to<br>grow with you</span></div>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <div class="hero-ecosystem" id="ecosystem">
+                        <div class="hero-image-mask">
+                            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1400&q=85"
+                                alt="Modern digital workspace" class="hero-img" loading="eager" />
+                            <div class="hero-image-overlay"></div>
+                        </div>
+                        <div class="eco-center-card">
+                            <img src="logo.png" alt="CiviKraft" class="eco-center-logo-img" />
+                            <small>BUILD / CONNECT / GROW</small>
+                        </div>
+                        <div class="eco-card eco-restaurant"><span class="eco-icon"><i
+                                    class="fas fa-utensils"></i></span>
+                            <div class="eco-info"><strong>RESTAURANT</strong><small>Orders · Bookings ·
+                                    Customers</small></div>
+                        </div>
+                        <div class="eco-card eco-gym"><span class="eco-icon"><i class="fas fa-dumbbell"></i></span>
+                            <div class="eco-info"><strong>GYM</strong><small>Members · Classes · Attendance</small>
+                            </div>
+                        </div>
+                        <div class="eco-card eco-business"><span class="eco-icon"><i
+                                    class="fas fa-chart-line"></i></span>
+                            <div class="eco-info"><strong>BUSINESS</strong><small>Leads · Analytics · Revenue</small>
+                            </div>
+                        </div>
+                        <div class="eco-card eco-civic"><span class="eco-icon"><i class="fas fa-landmark"></i></span>
+                            <div class="eco-info"><strong>CIVIC</strong><small>Services · Applications · Info</small>
+                            </div>
+                        </div>
+                        <svg class="eco-lines" viewBox="0 0 500 500" aria-hidden="true">
+                            <line x1="110" y1="140" x2="320" y2="220" />
+                            <line x1="320" y1="220" x2="250" y2="350" />
+                            <line x1="250" y1="350" x2="90" y2="280" />
+                            <line x1="110" y1="140" x2="90" y2="280" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator" aria-hidden="true">
+                <span>SCROLL TO EXPLORE</span>
+                <i class="fas fa-arrow-down"></i>
+            </div>
+        </section>
+
+        <!-- INTRO -->
+        <section class="intro section-pad" id="intro">
+            <div class="container intro-layout">
+                <div class="intro-index">/ 02</div>
+                <div class="intro-copy">
+                    <p class="intro-large" data-reveal>Technology is everywhere.</p>
+                    <p class="intro-large intro-second" data-reveal>Good technology feels <em>invisible</em>.</p>
+                    <p class="intro-accent" data-reveal>That's what we build.</p>
+                </div>
+                <div class="intro-side">
+                    <p>We combine product strategy, design and engineering to create digital experiences people actually
+                        want to use.</p>
+                    <a href="#about" class="text-link magnetic">Why CiviKraft <span>↗</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services section-pad" id="services">
+            <div class="container">
+                <div class="section-heading-row">
+                    <div>
+                        <span class="section-index">03 / SERVICES</span>
+                        <h2 class="section-title" data-reveal>WHAT WE CRAFT</h2>
+                    </div>
+                    <p class="section-heading-copy">From a first digital presence to a complete operational platform, we
+                        build technology around the way your organization actually works.</p>
+                </div>
+                <div class="service-list" id="serviceList">
+                    <div class="service-item"
+                        data-image="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1000&q=80">
+                        <span class="service-number">01</span>
+                        <div class="service-copy">
+                            <h3>Websites</h3>
+                            <p>High-performance, conversion-focused websites with a distinct visual identity.</p>
+                        </div>
+                        <span class="service-tag">WEB / UX</span>
+                        <span class="service-arrow">↗</span>
+                    </div>
+                    <div class="service-item"
+                        data-image="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1000&q=80">
+                        <span class="service-number">02</span>
+                        <div class="service-copy">
+                            <h3>Mobile Applications</h3>
+                            <p>Fast, intuitive mobile experiences built around how your customers behave.</p>
+                        </div>
+                        <span class="service-tag">APP / PRODUCT</span>
+                        <span class="service-arrow">↗</span>
+                    </div>
+                    <div class="service-item"
+                        data-image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80">
+                        <span class="service-number">03</span>
+                        <div class="service-copy">
+                            <h3>Business Platforms</h3>
+                            <p>Custom dashboards, portals and internal tools that simplify operations.</p>
+                        </div>
+                        <span class="service-tag">SOFTWARE</span>
+                        <span class="service-arrow">↗</span>
+                    </div>
+                    <div class="service-item"
+                        data-image="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1000&q=80">
+                        <span class="service-number">04</span>
+                        <div class="service-copy">
+                            <h3>Restaurant Technology</h3>
+                            <p>Ordering, reservations, loyalty, digital menus and restaurant operations.</p>
+                        </div>
+                        <span class="service-tag">HOSPITALITY</span>
+                        <span class="service-arrow">↗</span>
+                    </div>
+                    <div class="service-item"
+                        data-image="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=80">
+                        <span class="service-number">05</span>
+                        <div class="service-copy">
+                            <h3>Gym & Fitness Solutions</h3>
+                            <p>Membership, classes, attendance and engagement tools for modern fitness brands.</p>
+                        </div>
+                        <span class="service-tag">FITNESS</span>
+                        <span class="service-arrow">↗</span>
+                    </div>
+                    <div class="service-item"
+                        data-image="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1000&q=80">
+                        <span class="service-number">06</span>
+                        <div class="service-copy">
+                            <h3>Booking Systems</h3>
+                            <p>Simple reservation and scheduling experiences for customers and teams.</p>
+                        </div>
+                        <span class="service-tag">BOOKING</span>
+                        <span class="service-arrow">↗</span>
+                    </div>
+                    <div class="service-item"
+                        data-image="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1000&q=80">
+                        <span class="service-number">07</span>
+                        <div class="service-copy">
+                            <h3>Public Sector Platforms</h3>
+                            <p>Accessible digital services that make information and public processes easier to
+                                navigate.</p>
+                        </div>
+                        <span class="service-tag">CIVIC TECH</span>
+                        <span class="service-arrow">↗</span>
+                    </div>
+                    <div class="service-item"
+                        data-image="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1000&q=80">
+                        <span class="service-number">08</span>
+                        <div class="service-copy">
+                            <h3>AI & Automation</h3>
+                            <p>Smarter workflows, integrations and AI-assisted systems that remove manual work.</p>
+                        </div>
+                        <span class="service-tag">AI / AUTOMATION</span>
+                        <span class="service-arrow">↗</span>
+                    </div>
+                </div>
+                <div class="service-preview" id="servicePreview" aria-hidden="true">
+                    <img src="" alt="" loading="lazy" />
+                    <span class="preview-label">EXPLORE</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- INDUSTRIES -->
+        <section class="industries section-pad" id="solutions">
+            <div class="container">
+                <div class="section-heading-row">
+                    <div>
+                        <span class="section-index">04 / INDUSTRIES</span>
+                        <h2 class="section-title" data-reveal>BUILT FOR REAL-WORLD BUSINESSES</h2>
+                    </div>
+                    <p class="section-heading-copy">Different industries. Different workflows. One approach: technology
+                        shaped around the people using it.</p>
+                </div>
+            </div>
+            <div class="industry-track" id="industryTrack">
+                <article class="industry-item"><img
+                        src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=700&q=75"
+                        alt="Modern cafe interior" loading="lazy">
+                    <div class="industry-overlay"></div>
+                    <div class="industry-meta"><span>01</span><strong>CAFES</strong>
+                        <p>Menus, ordering, loyalty & digital presence</p><i class="fas fa-arrow-right"></i>
+                    </div>
+                </article>
+                <article class="industry-item"><img
+                        src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=75"
+                        alt="Restaurant dining space" loading="lazy">
+                    <div class="industry-overlay"></div>
+                    <div class="industry-meta"><span>02</span><strong>RESTAURANTS</strong>
+                        <p>Reservations, POS & customer experience</p><i class="fas fa-arrow-right"></i>
+                    </div>
+                </article>
+                <article class="industry-item"><img
+                        src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=700&q=75"
+                        alt="Modern gym" loading="lazy">
+                    <div class="industry-overlay"></div>
+                    <div class="industry-meta"><span>03</span><strong>GYMS</strong>
+                        <p>Members, classes & engagement tools</p><i class="fas fa-arrow-right"></i>
+                    </div>
+                </article>
+                <article class="industry-item"><img
+                        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=75"
+                        alt="Modern business building" loading="lazy">
+                    <div class="industry-overlay"></div>
+                    <div class="industry-meta"><span>04</span><strong>BUSINESSES</strong>
+                        <p>Leads, analytics & revenue platforms</p><i class="fas fa-arrow-right"></i>
+                    </div>
+                </article>
+                <article class="industry-item"><img
+                        src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=700&q=75"
+                        alt="Institutional campus" loading="lazy">
+                    <div class="industry-overlay"></div>
+                    <div class="industry-meta"><span>05</span><strong>INSTITUTIONS</strong>
+                        <p>Digital transformation for organizations</p><i class="fas fa-arrow-right"></i>
+                    </div>
+                </article>
+                <article class="industry-item"><img
+                        src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=700&q=75"
+                        alt="Public civic building" loading="lazy">
+                    <div class="industry-overlay"></div>
+                    <div class="industry-meta"><span>06</span><strong>PUBLIC SERVICES</strong>
+                        <p>Accessible civic platforms & information</p><i class="fas fa-arrow-right"></i>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ECOSYSTEM -->
+        <section class="ecosystem-section section-pad" id="ecosystemSection">
+            <div class="container">
+                <div class="section-heading-row">
+                    <div>
+                        <span class="section-index">05 / ECOSYSTEM</span>
+                        <h2 class="section-title" data-reveal>ONE PARTNER. ENDLESS DIGITAL POSSIBILITIES.</h2>
+                    </div>
+                </div>
+                <div class="orbit-wrapper" id="orbitWrapper">
+                    <div class="orbit-glow" aria-hidden="true"></div>
+                    <div class="orbit-ring orbit-ring-one" aria-hidden="true"></div>
+                    <div class="orbit-ring orbit-ring-two" aria-hidden="true"></div>
+                    <div class="orbit-center">
+                        <img src="logo.png" alt="CiviKraft" class="orbit-logo-image" />
+                        <small>THE DIGITAL CORE</small>
+                    </div>
+                    <div class="orbit-node orbit-node-1"><span>Website</span></div>
+                    <div class="orbit-node orbit-node-2"><span>Mobile App</span></div>
+                    <div class="orbit-node orbit-node-3"><span>Booking</span></div>
+                    <div class="orbit-node orbit-node-4"><span>Payments</span></div>
+                    <div class="orbit-node orbit-node-5"><span>CRM</span></div>
+                    <div class="orbit-node orbit-node-6"><span>Analytics</span></div>
+                    <div class="orbit-node orbit-node-7"><span>Automation</span></div>
+                    <div class="orbit-node orbit-node-8"><span>AI</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK -->
+        <section class="work section-pad" id="work">
+            <div class="container">
+                <div class="section-heading-row">
+                    <div>
+                        <span class="section-index">06 / WORK</span>
+                        <h2 class="section-title" data-reveal>SELECTED WORK</h2>
+                    </div>
+                    <p class="section-heading-copy">Concept projects that show how CiviKraft translates real business
+                        problems into polished digital products.</p>
+                </div>
+                <div class="work-filters" role="tablist" aria-label="Project categories">
+                    <button class="filter-btn active" type="button" data-filter="all">All</button>
+                    <button class="filter-btn" type="button" data-filter="web">Web</button>
+                    <button class="filter-btn" type="button" data-filter="app">Apps</button>
+                    <button class="filter-btn" type="button" data-filter="platform">Platforms</button>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card project-card-large" data-project="cafeflow"
+                        data-category="web platform" data-tilt tabindex="0" role="button"
+                        aria-label="Open CafeFlow project details">
+                        <div class="project-image"><img
+                                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=85"
+                                alt="CafeFlow digital restaurant concept" loading="lazy"></div>
+                        <div class="project-number">01</div>
+                        <div class="project-overlay"><span class="project-type">WEB / PLATFORM</span>
+                            <h3>CafeFlow</h3>
+                            <p>Restaurant digital ecosystem</p><span class="project-arrow">↗</span>
+                        </div>
+                    </article>
+                    <article class="project-card" data-project="fitforge" data-category="app platform" data-tilt
+                        tabindex="0" role="button" aria-label="Open FitForge project details">
+                        <div class="project-image"><img
+                                src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1200&q=85"
+                                alt="FitForge gym platform concept" loading="lazy"></div>
+                        <div class="project-number">02</div>
+                        <div class="project-overlay"><span class="project-type">APP / PLATFORM</span>
+                            <h3>FitForge</h3>
+                            <p>Gym management platform</p><span class="project-arrow">↗</span>
+                        </div>
+                    </article>
+                    <article class="project-card" data-project="civicconnect" data-category="web platform" data-tilt
+                        tabindex="0" role="button" aria-label="Open CivicConnect project details">
+                        <div class="project-image"><img
+                                src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&q=85"
+                                alt="CivicConnect public service concept" loading="lazy"></div>
+                        <div class="project-number">03</div>
+                        <div class="project-overlay"><span class="project-type">CIVIC / WEB</span>
+                            <h3>CivicConnect</h3>
+                            <p>Public service platform</p><span class="project-arrow">↗</span>
+                        </div>
+                    </article>
+                    <article class="project-card project-card-large" data-project="localbiz"
+                        data-category="web platform" data-tilt tabindex="0" role="button"
+                        aria-label="Open LocalBiz project details">
+                        <div class="project-image"><img
+                                src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85"
+                                alt="LocalBiz business platform concept" loading="lazy"></div>
+                        <div class="project-number">04</div>
+                        <div class="project-overlay"><span class="project-type">WEB / BUSINESS</span>
+                            <h3>LocalBiz</h3>
+                            <p>Small business digital platform</p><span class="project-arrow">↗</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROCESS -->
+        <section class="story-section" id="story">
+            <div class="story-pin">
+                <div class="story-header container">
+                    <span class="section-index">07 / PROCESS</span>
+                    <h2 class="section-title" data-reveal>FROM IDEA TO DIGITAL PRODUCT</h2>
+                </div>
+                <div class="story-track" id="storyTrack">
+                    <div class="story-panel"><span>01</span><small>DISCOVER</small>
+                        <h3>UNDERSTAND<br>THE PROBLEM.</h3>
+                        <p>Research, users, workflows and opportunity mapping.</p>
+                    </div>
+                    <div class="story-panel"><span>02</span><small>STRATEGIZE</small>
+                        <h3>TURN IDEAS<br>INTO A PLAN.</h3>
+                        <p>Define scope, roadmap, priorities and success metrics.</p>
+                    </div>
+                    <div class="story-panel"><span>03</span><small>DESIGN</small>
+                        <h3>MAKE IT FEEL<br>RIGHT.</h3>
+                        <p>User flows, wireframes and a visual system with personality.</p>
+                    </div>
+                    <div class="story-panel"><span>04</span><small>BUILD</small>
+                        <h3>MAKE IT<br>REAL.</h3>
+                        <p>Clean, scalable engineering across web, mobile and software.</p>
+                    </div>
+                    <div class="story-panel"><span>05</span><small>LAUNCH</small>
+                        <h3>PUT IT IN<br>PEOPLE'S HANDS.</h3>
+                        <p>Quality checks, deployment, analytics and launch support.</p>
+                    </div>
+                    <div class="story-panel"><span>06</span><small>GROW</small>
+                        <h3>KEEP<br>MOVING.</h3>
+                        <p>Iterate, improve, automate and scale as your business grows.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="why section-pad" id="about">
+            <div class="container">
+                <span class="section-index">08 / ABOUT CIVIKRAFT</span>
+                <div class="why-layout">
+                    <div class="why-statement" data-reveal>
+                        <p class="large-text">WE DON'T BUILD<br>FOR SCREENS.</p>
+                        <p class="large-text highlight">WE BUILD FOR<br>PEOPLE.</p>
+                    </div>
+                    <div class="why-stats">
+                        <div class="stat" data-count="01">
+                            <div class="stat-head"><strong>01</strong><span>CUSTOM</span></div>
+                            <p>No off-the-shelf thinking. Every solution starts with your real business problem.</p>
+                        </div>
+                        <div class="stat" data-count="02">
+                            <div class="stat-head"><strong>02</strong><span>SCALABLE</span></div>
+                            <p>Build today with enough structure to support tomorrow's growth.</p>
+                        </div>
+                        <div class="stat" data-count="03">
+                            <div class="stat-head"><strong>03</strong><span>HUMAN-CENTERED</span></div>
+                            <p>Interfaces are designed for the people who actually use them.</p>
+                        </div>
+                        <div class="stat" data-count="04">
+                            <div class="stat-head"><strong>04</strong><span>BUILT TO GROW</span></div>
+                            <p>Technology becomes more valuable as your organization evolves.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TECHNOLOGY -->
+        <section class="tech-section">
+            <div class="tech-grid-bg" aria-hidden="true"></div>
+            <div class="container tech-intro">
+                <span class="section-index">09 / STACK</span>
+                <h2 class="section-title" data-reveal>BUILT WITH MODERN TECHNOLOGY.</h2>
+            </div>
+            <div class="marquee" id="marquee1" aria-label="Technologies">
+                <div class="marquee-content">HTML <b>✦</b> CSS <b>✦</b> JavaScript <b>✦</b> React <b>✦</b> Node.js
+                    <b>✦</b> Python <b>✦</b> Flutter <b>✦</b> Firebase <b>✦</b> MySQL <b>✦</b> MongoDB <b>✦</b> Cloud
+                    <b>✦</b> AI <b>✦</b></div>
+            </div>
+            <div class="marquee marquee-reverse" id="marquee2" aria-label="Capabilities">
+                <div class="marquee-content">PRODUCT DESIGN <b>✦</b> APIs <b>✦</b> AUTOMATION <b>✦</b> ANALYTICS
+                    <b>✦</b> CLOUD <b>✦</b> MOBILE <b>✦</b> WEB <b>✦</b> AI <b>✦</b> INTEGRATIONS <b>✦</b></div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section class="testimonials section-pad">
+            <div class="container">
+                <div class="section-heading-row">
+                    <div>
+                        <span class="section-index">10 / PEOPLE</span>
+                        <h2 class="section-title" data-reveal>WHAT PARTNERS COULD SAY</h2>
+                    </div>
+                </div>
+                <div class="testimonial-carousel" id="testimonialCarousel">
+                    <div class="testimonial-track" id="testimonialTrack">
+                        <article class="testimonial-card">
+                            <div class="quote-mark">"</div>
+                            <blockquote>CiviKraft transformed a complicated workflow into something our customers could
+                                understand in seconds.</blockquote>
+                            <div class="testimonial-person"><span class="avatar">01</span>
+                                <div><strong>Restaurant Owner</strong><span>CafeFlow</span></div>
+                            </div>
+                        </article>
+                        <article class="testimonial-card">
+                            <div class="quote-mark">"</div>
+                            <blockquote>The experience felt polished from the first screen to the final interaction. It
+                                finally feels like our brand online.</blockquote>
+                            <div class="testimonial-person"><span class="avatar">02</span>
+                                <div><strong>Gym Manager</strong><span>FitForge</span></div>
+                            </div>
+                        </article>
+                        <article class="testimonial-card">
+                            <div class="quote-mark">"</div>
+                            <blockquote>They approached the product as a business problem, not just a coding task. That
+                                changed everything.</blockquote>
+                            <div class="testimonial-person"><span class="avatar">03</span>
+                                <div><strong>Operations Lead</strong><span>CivicConnect</span></div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button id="prevTestimonial" type="button" aria-label="Previous testimonial"><i
+                            class="fas fa-arrow-left"></i></button>
+                    <div class="progress-indicator" id="testimonialProgress" aria-hidden="true"></div>
+                    <button id="nextTestimonial" type="button" aria-label="Next testimonial"><i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section" id="cta">
+            <div class="cta-bg"></div>
+            <div class="cta-grid" aria-hidden="true"></div>
+            <div class="container cta-inner">
+                <span class="section-index">11 / LET'S BUILD</span>
+                <h2>HAVE AN IDEA?<br><span>LET'S CRAFT IT.</span></h2>
+                <p>Tell us what you're building. We'll help turn it into a digital experience people want to use.</p>
+                <a href="#contact" class="btn btn-primary magnetic"><span>Start a Project</span><span>↗</span></a>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section-pad" id="contact">
+            <div class="container contact-layout">
+                <div class="contact-left">
+                    <span class="section-index">12 / CONTACT</span>
+                    <h2>LET'S<br><span>TALK.</span></h2>
+                    <p class="contact-sub">Have a project? A new business? An idea that needs technology? Start the
+                        conversation.</p>
+                    <div class="contact-details">
+                        <a href="mailto:hello@civikraft.com"><i
+                                class="fas fa-envelope"></i><span>hello@civikraft.com</span></a>
+                        <p><i class="fas fa-location-dot"></i><span>India · Working digitally worldwide</span></p>
+                    </div>
+                    <div class="contact-note">
+                        <span class="contact-note-dot"></span>
+                        <p>Usually the first step is a 20-minute conversation about what you're trying to build.</p>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-row">
+                            <label><span>Name</span><input type="text" id="name" name="name" placeholder="Your name"
+                                    autocomplete="name" required /></label>
+                            <label><span>Email</span><input type="email" id="email" name="email"
+                                    placeholder="you@company.com" autocomplete="email" required /></label>
+                        </div>
+                        <div class="form-row">
+                            <label><span>Company / Organization</span><input type="text" id="company" name="company"
+                                    placeholder="Company name" autocomplete="organization" /></label>
+                            <label><span>Phone</span><input type="tel" id="phone" name="phone"
+                                    placeholder="Phone number" autocomplete="tel" /></label>
+                        </div>
+                        <div class="form-row">
+                            <label><span>Project Type</span>
+                                <select id="projectType" name="projectType" required>
+                                    <option value="" selected disabled>Select a service</option>
+                                    <option>Website</option>
+                                    <option>Mobile App</option>
+                                    <option>Business Software</option>
+                                    <option>Restaurant Solution</option>
+                                    <option>Gym Solution</option>
+                                    <option>Public Sector</option>
+                                    <option>AI / Automation</option>
+                                    <option>Other</option>
+                                </select>
+                            </label>
+                            <label><span>Budget Range</span><input type="text" id="budget" name="budget"
+                                    placeholder="e.g. ₹50k – ₹2L" /></label>
+                        </div>
+                        <label class="field-full"><span>Tell us about the project</span><textarea id="message"
+                                name="message"
+                                placeholder="What are you trying to build, and what should it help people do?"
+                                required></textarea></label>
+                        <button type="submit" class="btn btn-primary magnetic" id="submitBtn"><span>Send
+                                Enquiry</span><span>↗</span></button>
+                        <div id="formSuccess" class="form-success" aria-live="polite">THANK YOU. Your project enquiry
+                            has been received. We'll get back to you soon.</div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="logo-link" aria-label="Back to top">
+                        <img src="logo.png" alt="CiviKraft Technologies logo" class="logo-image" />
+                        <span class="logo-copy"><strong
+                                class="logo-text">CiviKraft</strong><small>TECHNOLOGIES</small></span>
+                    </a>
+                    <p>Digital Solutions.<br>Built for People.</p>
+                    <a href="#contact" class="footer-project-link magnetic">Start something <span>↗</span></a>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4><a href="#home">Home</a><a href="#services">Services</a><a
+                        href="#solutions">Solutions</a><a href="#work">Work</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4><a href="#about">About</a><a href="#story">Process</a><a href="#contact">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4><a href="#services">Websites</a><a href="#services">Mobile Apps</a><a
+                        href="#services">Software</a><a href="#services">AI & Automation</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Industries</h4><a href="#solutions">Cafes</a><a href="#solutions">Restaurants</a><a
+                        href="#solutions">Gyms</a><a href="#solutions">Public Sector</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4><a href="#" aria-label="LinkedIn">LinkedIn ↗</a><a href="#"
+                        aria-label="Instagram">Instagram ↗</a><a href="#" aria-label="GitHub">GitHub ↗</a><a
+                        href="mailto:hello@civikraft.com">Email ↗</a>
+                </div>
+            </div>
+            <div class="container footer-bottom">
+                <p>© 2026 CiviKraft Technologies</p>
+                <div class="footer-bottom-links"><a href="#">Privacy</a><a href="#">Terms</a></div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="project-modal" aria-hidden="true">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" id="modalClose" type="button" aria-label="Close project details"><i
+                    class="fas fa-times"></i></button>
+            <div class="modal-meta"><span>CASE STUDY</span><span id="modalCategory">CIVIKRAFT</span></div>
+            <h3 id="modalTitle"></h3>
+            <div id="modalDetails"></div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
